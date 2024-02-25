@@ -3,6 +3,7 @@ import { Montserrat } from "next/font/google";
 import "./globals.css";
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
+import ToasterNext from "./context/Toaster";
 
 const inter = Montserrat({ subsets: ["latin"] });
 
@@ -19,6 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.className} lg:bg-neutral-50 bg-neutral-100 `}>
+        <ToasterNext />
         <Navbar />
         {children}
         <Footer />

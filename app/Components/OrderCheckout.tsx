@@ -23,7 +23,7 @@ const OrderCheckout = () => {
 
     useEffect(() => {
         if (searchParams.get('success')) {
-            toast.success("Payment completed")
+            toast.success("Payment completed", { duration: 1000 })
             removeAll()
         }
         if (searchParams.get("canceled")) {

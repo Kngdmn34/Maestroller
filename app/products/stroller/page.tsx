@@ -136,8 +136,7 @@ const StrollerPage = () => {
                 <div className='flex w-full flex-col space-y-10  items-center px-16'>
                     <label className='text-3xl mb-6 w-full text-nowrap p-2 border-b-2  border-neutral-700/60 tracking-wider'>STROLLER SINGLE</label>
                     <p className='indent-4 px-3 first-letter:uppercase cursor-default'>
-                        Designed with maximum versatility to grow with your child and convert to a double if your family expands.
-                    </p>
+                        Esigned for parents with one child and come with features such as a comfortable seat, adjustable recline, canopy for sun protection, storage options, and easy maneuverability. </p>
                     <div id="colors" className='flex m w-full flex-col space-y-4 justify-start items-start'>
                         <label className='text-xl font-semibold'>Color</label>
                         <span className='flex px-11  flex-row space-x-5 items-center justify-start'>
